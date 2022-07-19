@@ -1,0 +1,61 @@
+html {
+    font-size: 12vw; 
+    font-family: 'Bebas Neue', cursive; /* hier kommt der Name der ausgewählten Schriftfamilie hin */
+    color: white;
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+  }
+
+body {
+    background-image: url("background.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    background-color: #013662; 
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+  }
+
+
+.guest {
+    position:absolute; left:10%; top:5%;
+}
+
+.runs_guest {
+    text-align:center;
+    width:100%;
+    position:absolute; top:50%;
+    font-size: 30vw;
+}
+
+.home {
+    position:absolute; right:10%; top:5%;
+}
+
+.runs_home {
+    text-align:center;
+    width: 100%;
+    position:absolute; top:50%;
+    font-size: 30vw;
+}
+
+.inning {
+    text-align:center;
+    width: 100%;
+    position:absolute; bottom:25%; 
+    font-style:italic;
+    font-size: 9vw; 
+}
+
+.InningNr {
+    text-align:center;
+    width: 100%;
+    position:absolute; right:1%; top:70%;
+    font-size : 12vw;
+}

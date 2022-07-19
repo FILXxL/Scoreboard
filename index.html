@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+        <!--<meta http-equiv="Refresh" content="10"> -->
+        <meta name="mobile-web-app-capable" content="yes" />
+        <title>Scoreboard</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue" rel="stylesheet">
+        <script type="text/javascript" src="node_modules/obs-websocket-js/dist/obs-websocket.js"></script>
+        
+  
+    </head>
+    <body>
+        <div class="guest" id="guestText">GUEST
+            <div class="runs_guest" id="guestScore"></div>
+        </div>
+
+        <div class="home" id="homeText">HOME
+            <div class="runs_home" id="homeScore"></div>
+        </div>
+
+        <div class="inning" id="inningText">INNING
+            <div class="InningNr" id="InningNr"></div>
+        </div>
+
+        <script type="text/javascript" src="getvalues.js"></script>
+    </body>
+</html>
