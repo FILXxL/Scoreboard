@@ -42,18 +42,18 @@ function callWS(){
     });
 
 
-    const box = document.querySelector('.firstout');
-const toggleButton = document.querySelector('.toggle-first');
+    //const box = document.querySelector('.firstout');
+//const toggleButton = document.querySelector('.toggle-first');
 
-toggleButton.addEventListener('click', function() {
-  box.classList.toggle('active');
+//toggleButton.addEventListener('click', function() {
+  //box.classList.toggle('active');
 
-});
+//});
 
-const boxx = document.querySelector('.secondout');
-const toggleButtonx = document.querySelector('.toggle-second');
+//const boxx = document.querySelector('.secondout');
+//const toggleButtonx = document.querySelector('.toggle-second');
 
-toggleButtonx.addEventListener('click', function() {
-  boxx.classList.toggle('active');
+//toggleButtonx.addEventListener('click', function() {
+  //boxx.classList.toggle('active');
 
-});
+//});
